@@ -4,18 +4,21 @@
       "name": "First Name",
       "type": "string",
       "value": "John",
-      "visible": true
+      "visible": true,
+      "order": 1
     },
     {
       "name": "Last Name",
       "type": "string",
       "value": "Smith",
-      "visible": true
+      "visible": true,
+      "order": 2
     },
     {
       "name": "Age",
       "type": "integer",
-      "visible": true
+      "visible": true,
+      "order": 3
     }
   ]
 }
