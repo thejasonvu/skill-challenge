@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Skills Challenge</title>
+</head>
+<body>
+    <input id="name" type="text" />
+
+    <script>
+        document.addEventListener('readystatechange', (ev) => {
+            if (ev.target.readyState === 'complete') {
+                afterLoad();
+			}
+        });
+
+        const afterLoad = () => {
+            const el = document.getElementById('name');
+
+            el.onblur = () => {
+                if (/\d/g.test(el.value)) {
+                    alert('No digits allowed!');
+                };
+            };
+        };
+    </script>
+</body>
+</html>
