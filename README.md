@@ -16,7 +16,7 @@ Remember to use any resource you would like including StackOverflow, MSDN, Mozil
 
 Html/Javascript
 
-In the sample html file. Follow the following instructions:
+In the sample html file "Skills.Challenge.Part.2.html" follow these instructions:
 
 1) in the afterLoad function instead of the "alert" message change it so the text box's border colour turns red (#f00)
 
