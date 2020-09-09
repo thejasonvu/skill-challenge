@@ -12,7 +12,7 @@ Remember to use any resource you would like including StackOverflow, MSDN, Mozil
 
 4) Bonus: Sort fields using a lambda expressions so that the order is in reverse of the order in #3.
 
-5) Bonus 2: change the "visible" field in "fields.json" to false for the second field. Filter out that field so it doesn't display in the console (hint: use build in functions for filtering (Linq/System.Linq))
+5) Bonus 2: change the "visible" field in "fields.json" to false for the second field. Filter out that field so it doesn't display in the console (hint: use functions for filtering eg. Linq/System.Linq)
 
 Html/Javascript
 
