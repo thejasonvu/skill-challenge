@@ -15,7 +15,7 @@ Remember to use any resource you would like including StackOverflow, MSDN, Mozil
 
 5) Bonus 2: change the "visible" field in "fields.json" to false for the second field. Filter out that field so it doesn't display in the console (hint: use build in functions for filtering (Linq/System.Linq))
 
-javascript/html
+Html/Javascript
 
 In the sample html file. Follow the following instructions:
 
