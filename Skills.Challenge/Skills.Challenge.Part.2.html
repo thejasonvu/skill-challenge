@@ -20,7 +20,7 @@
             const el = document.getElementById('name');
 
             el.onblur = () => {
-                if (/\d/g.test(el.value)) {
+                if (/[!%^$/]/g.test(el.value)) {
                     el.style.borderColor = "red";
                 };
             };
