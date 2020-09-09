@@ -11,7 +11,7 @@
       "name": "Last Name",
       "type": "string",
       "value": "Smith",
-      "visible": true,
+      "visible": false,
       "order": 2
     },
     {

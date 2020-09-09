@@ -19,7 +19,7 @@ namespace Skills.Challenge
             // using LINQ is more succinct and semantic. Example:
             // List<Field> listOfFields = form.Fields.ToList();
             // listOfFields.Sort((x, y) => x.Order.CompareTo(y.Order));
-            var sortedFields = form.Fields.OrderByDescending(i => i.Order);
+            var sortedFields = form.Fields.Where(i => i.Visible).OrderByDescending(i => i.Order);
 
             foreach (var field in sortedFields)
             {
