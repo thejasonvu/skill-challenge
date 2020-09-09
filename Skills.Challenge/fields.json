@@ -1,16 +1,21 @@
 {
-	"fields": [
-		{
-			"name": "First Name",
-			"type": "string",
-			"value": "John",
-			"visible": true
-		},
-		{
-			"name": "Last Name",
-			"type": "string",
-			"value": "Smith",
-			"visible": true
-		}
-	]
+  "fields": [
+    {
+      "name": "First Name",
+      "type": "string",
+      "value": "John",
+      "visible": true
+    },
+    {
+      "name": "Last Name",
+      "type": "string",
+      "value": "Smith",
+      "visible": true
+    },
+    {
+      "name": "Age",
+      "type": "integer",
+      "visible": true
+    }
+  ]
 }
