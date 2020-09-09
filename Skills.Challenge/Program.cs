@@ -5,21 +5,21 @@ using System.Text.Json;
 
 namespace Skills.Challenge
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			var form = JsonSerializer.Deserialize<Form>(System.IO.File.ReadAllText("fields.json"), new JsonSerializerOptions { IgnoreNullValues = true, PropertyNameCaseInsensitive = true });
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var form = JsonSerializer.Deserialize<Form>(System.IO.File.ReadAllText("fields.json"), new JsonSerializerOptions { IgnoreNullValues = true, PropertyNameCaseInsensitive = true });
 
-			var strBuilder = new StringBuilder();
+            var strBuilder = new StringBuilder();
 
-			foreach (var field in form.Fields)
-			{
-				strBuilder.AppendLine($"{field.Name} = {field.Value}");
-			}
+            foreach (var field in form.Fields)
+            {
+                strBuilder.AppendLine($"{field.Order}) {field.Name} = {field.Value}");
+            }
 
-			Console.WriteLine(strBuilder.ToString());
-			Console.Read();
-		}
-	}
+            Console.WriteLine(strBuilder.ToString());
+            Console.Read();
+        }
+    }
 }
