@@ -1,5 +1,4 @@
-# challenge
-Skills Challenge
+# Skills Challenge
 
 Remember to use any resource you would like including StackOverflow, MSDN, Mozilla DN etc. But be prepared to answer why and how some of your solutions work!
 
