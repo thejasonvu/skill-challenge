@@ -8,7 +8,7 @@
 
 <body>
     <input id="name" type="text" />
-    <input id="age" type="number" min="21" max="35" />
+    <select id="age"></select>
 
     <script>
         document.addEventListener('readystatechange', (ev) => {
@@ -21,20 +21,18 @@
             const el = document.getElementById('name');
             const ageInput = document.getElementById('age');
 
+            for (var i = 21; i <= 35; i++) {
+                var option = document.createElement("OPTION");
+                ageInput.options.add(option);
+                option.text = i;
+                option.value = i;
+            }
+
             el.onblur = () => {
                 if (/[!%^$/]/g.test(el.value)) {
                     el.style.borderColor = "red";
                 };
             };
-
-            ageInput.onblur = () => {
-                if (ageInput.value < 21) {
-                    ageInput.value = 21;
-                }
-                else if (ageInput.value > 35) {
-                    ageInput.value = 35;
-                }
-            }
         };
     </script>
 </body>
