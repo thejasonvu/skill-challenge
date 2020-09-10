@@ -17,6 +17,7 @@
     {
       "name": "Age",
       "type": "integer",
+      "value": "30",
       "visible": true,
       "order": 3
     }
